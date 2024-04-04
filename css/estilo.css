@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: lightblue;
+}
+
+.logo{
+    background-color: yellow;
+}
+
+nav{
+    background-color: darkgray;
+}
+
+main{
+    background-color: green;
+}
+
+section{
+    background-color: wheat;
+}
+
+footer{
+    background-color: purple;
+}
