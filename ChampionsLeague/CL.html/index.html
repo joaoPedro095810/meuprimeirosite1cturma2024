@@ -3,53 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML SEMANTICO</title>
-    <link rel="stylesheet" href="CL.css/index.css">
+    <title>Exemplo HTML Semântico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Salsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">    
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">   
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    
-    <header>
-            <img class="img_logo" src="img/championsleague_logo.png"
-            <div class="logo">
-
-            </div>
-
-                <div class="itens_menu"
-                    <ul>
-                        <div class="itens_menu_li">
-                        <li><a="index.html"></a>Início</li>
-                        <li><a="confrontos.html">Confrontos</a></li>
-                        <li><a="semifiinal.html">Semifinal</a></li>
-                        <li><a="quartasdefinal.html">Quartas De Final</a></li>
-                        <li><a="oitavasdefinal.html"></a>Oitavas De Final</li>
-                        <li><a="artilharia.html">Artinharia</a></li>
-                        </div>
-                    </ul>
-            </div>
+    <header class="cabecalho">
+        <div class="logo">
+            <img class="logotopo" src="img/logozinho.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Estrutura</a></li>
+                <li><a href="#">Detalhes</a></li>
+                <li><a href="cssinline_interno.html">Exemplos</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <fundo>
     <main>
-
+        <h1 class="titulos">Introdução à Inteligência Artificial</h1>                 
         <section>
+            <h2 class="titulos">O que é o Inteligência Artificial?</h2>
 
-            <h1>Mata-Mata; UEFA Champions League.</h1>
+            <p> 
+                Segundo o dicionário de Cambridge, o termo está relacionado ao desenvolvimento de sistemas de computador capazes de realizar tarefas que exigem inteligência humana, como percepção visual, reconhecimento de fala, tomada de decisão e tradução entre idiomas. 
+            </p>
+            <p>
+                Inteligência artificial é a utilização de computadores e máquinas para imitar a capacidade de resolução de problemas e tomada de decisão da mente humana.Fonte: (ibm.com, 2024)
+            </p>
+            <p>
+                Tecnicamente, o termo Inteligência Artificial refere-se a um modelo criado para resolver um problema específico ou fornecer um determinado serviço. Fonte: (DatascienceAcademy, 2024)
 
-            <div class="text">
-                    <p>
-                    texto...
-                </p>
-            </div>        
-                    <P>
-                    texto...
-                </P>
-                    <p>
-                    texto...
-                </p>
+            </p>
+            <p>
+                Ela envolve a criação de algoritmos e modelos que permitem que as máquinas processem informações, aprendam com dados, tomem decisões, resolvam problemas e interajam com o ambiente de maneira inteligente.  Fonte: (Lemos, 2023) - Revista Exame
+            </p>           
         </section>
         <section>
-            <h1>FAVRITOS</h1>
+            <h2 class="titulos">Componentes Importantes da IA</h2>
+            <p>
+                Este diagrama mostra ma visão geral sobre o tema pode ser visualizada com este primeiro diagrama que mostra a Relação entre a Inteligência Artificial, Aprendizado de Máquina, Aprendizagem Profunda e Ciencias de Dados.
+            </p>
+            <figure>
+                <img src="img/conceitual.png" alt="Mapa Conceitual IA">
+                <legend><a href="https://neigrando.com/2022/05/04/a-essencia-do-aprendizado-de-maquina/"> Fonte: neirando.com </a> </legend>
+            </figure>     
+            <p>Itens que serão comentados adiante:</p>
+            <ul>
+                <li>Processamento de Linguagem Natural</li>
+                <li>Visão Computacional</li>
+                <li>Aprendizado de Máquina</li>
+                <li>Aprendizado Profundo</li>
+                <li>Ciências de Dados</li>
+                
+            </ul>
+
+            
         </section>
+        <section>
+            <h2 class="titulos">O que é JS?</h2>
+            <p>
+                JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+            </p>
+            <p>Funcionamento do JS</p>
+            <ul>
+                <li>O navegador carrega uma página da Web quando você a acessa.</li>
+                <li>Durante o carregamento, o navegador converte a página e todos os seus elementos, como botões, rótulos e caixas de menu suspenso, em uma estrutura de dados chamada Modelo de Objeto de Documento (DOM).</li>                    
+                <li>O mecanismo JavaScript do navegador converte o código JavaScript em código de bytes. Esse código é um intermediário entre a sintaxe em JavaScript e a máquina.</li>                    
+                <li>Eventos diferentes, como o clique do mouse em um botão, acionam a execução do bloco de código associado em JavaScript. Em seguida, o mecanismo interpreta o código de bytes e faz alterações no DOM.</li>                    
+                <li>O navegador exibe o novo DOM.</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="titulos">Linguagens de Programação</h2>
+            <table>
+                <tr>
+                    <th>2021</th>
+                    <th>2020</th>
+                    <th>Linguagem</th>
+                    <th>Avaliações</th>
+                    <th>Modulação</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>C</td>
+                    <td>12,57%</td>
+                    <td>-4,41%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>Python</td>
+                    <td>11,86%</td>
+                    <td>+2,17%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>Java</td>
+                    <td>10,43%</td>
+                    <td>-4,00%</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>C++</td>
+                    <td>7,36%</td>
+                    <td>+0,52%</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>C#</td>
+                    <td>5,14%</td>
+                    <td>+0,46%</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>Visual Basic</td>
+                    <td>4,67%</td>
+                    <td>+0,01%</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>Javascript</td>
+                    <td>2,95%</td>
+                    <td>+0,07%</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>PHP</td>
+                    <td>2,19%</td>
+                    <td>-0,05%</td>
+                </tr>
+            </table>
+        </section>         
     </main>
-    </fundo>
+    <footer class="rodape">
+        <p>Rodapé da Página</p>        
+    </footer>    
 </body>
+</html>
