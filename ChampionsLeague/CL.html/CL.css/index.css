@@ -1,0 +1,15 @@
+body{ 
+    background-color: transparent;
+    background-image: url("CL.img/champions-league-soccer-ball-on-600nw-1956515458.webp");
+    background-repeat: no-repeat;
+    background-size: 120%;
+
+
+
+
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
