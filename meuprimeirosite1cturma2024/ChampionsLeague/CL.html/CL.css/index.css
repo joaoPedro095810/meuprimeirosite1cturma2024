@@ -5,8 +5,14 @@ body{
     background-size: 120%;
 
 
-
-
+}
+p{
+    font-family:  "Poppins", sans-serif;
+    font-size: 10;
+    color: rgb(250, 250, 250);
+}
+h1, h4{
+    color: white;
 }
 li{
     list-style: none;
