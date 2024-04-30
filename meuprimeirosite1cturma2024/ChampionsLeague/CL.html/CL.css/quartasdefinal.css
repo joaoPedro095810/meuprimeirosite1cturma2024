@@ -1,0 +1,40 @@
+body{ 
+    background-color: transparent;
+    background-image: url("CL.img/champions-league-soccer-ball-on-600nw-1956515458.webp");
+    background-repeat: no-repeat;
+    background-size: 120%;
+
+
+
+
+}
+header{
+    background-color: rgb(59, 23, 160);
+    height: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 70px;
+
+}
+section{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 100px;
+    margin-right: 90px;
+    border-radius: 20px ;
+
+
+}
+
+.itens_menu{ 
+    color:black;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+  
+  .itens_menu{
+    display: inline;
+  }
