@@ -8,25 +8,20 @@ body{
 header{
     background-color: rgb(0, 0, 0);
     height: 125px;
-    font-family: var(--tm-tertiary-font, 'OSB', 'OSB-fallback', sans-serif);
+    font-family:'Roboto', sans-serif;
     border-radius: 30px;
 }
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 a {  		
-    text-decoration:none;    	
-    color: black;
+    text-decoration: none;    	
+    color: red;
 }  
-
-h1{
-    font-family: "Roboto", sans-serif;
-}
-ul{
-    list-style: none;
-    margin: 10px;
-    padding: 10px;
-    border: 10px;
-    vertical-align: baseline;
-    
-}
 li{
     display: inline;
     
@@ -34,14 +29,13 @@ li{
 }
 .logo{
     background-color: transparent;
-    padding-top: center;
-    padding-bottom: center;
-    text-align: center;
-    width: 100%;
+    padding-top: left;
+    padding-bottom: left;
+    text-align: left;
+    width: 90%;
     
     
 }
-
 .img_logo{
     
     width: 50px;
@@ -51,38 +45,14 @@ li{
     
 }
 
-.itens_menu{ 
-    color:black;
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    font-size: 18px;
-  }
-  
   .itens_menu{
     display: inline;
   }
-
-
-
-
-nav{
-    background-color: transparent;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-}
-
-
-
-
-
 footer{
     background-color: transparent;
     border: 20px;
 }
-h1{
+h1, h4{
 
     color: white;
     font-size: 50px;
@@ -90,7 +60,7 @@ h1{
     color: #fff;
     
     font-family: "Roboto", sans-serif;
-    text-align: center;
+    text-align: left;
     
     background-color: transparent;
     margin-top: 10px;
@@ -99,20 +69,15 @@ h1{
 }
 p {
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     
     color: #fff;
     
-    font-family: "Open Sans", sans-serif;
-    text-align: center;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
     
     background-color: transparent;
     margin-top: 10px;
     margin-left: 150px;
     margin-right: 150px;
-}
-.text{
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
