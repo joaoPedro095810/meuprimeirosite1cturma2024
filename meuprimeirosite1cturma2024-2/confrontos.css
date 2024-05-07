@@ -1,0 +1,57 @@
+body{
+    background-color: transparent;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("img/ucl_branding.webp");
+    background-repeat: repeat;
+    background-size: 100%;
+  
+}
+h2{
+
+    color: white;
+    font-size: 50px;
+    font-size: 1.4em;
+    color: #fff;
+    
+    font-family:;
+    text-align: center;
+    
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+p {
+    color: white;
+    font-size: 20px;
+    
+    color: #fff;
+    
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text{
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+table{
+    color: #fff;
+    border-collapse: collapse;
+    width: 80;
+    font-size: 1. 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+td,th{
+    border: 5px dashed #f00;
+    padding: 1.5%;
+}
+tr:nthchild(even) {
+    background-color: aliceblue;
+}
