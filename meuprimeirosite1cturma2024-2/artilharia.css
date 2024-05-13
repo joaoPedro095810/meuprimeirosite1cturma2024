@@ -5,37 +5,44 @@ body{
     background-size: 100%;
   
 }
+main{
+    background-color: rgba(0, 0, 0, 0.399);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background-color: transparent;
+    padding: 3%;
+}
 h3,h2,h1{
 
     color: white;
     font-size: 50px;
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #fff;
     
     font-family:;
-    text-align: center;
+    text-align: left;
+    line-height: 3;
     
     background-color: transparent;
     margin-top: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 p {
     color: white;
-    font-size: 20px;
+    font-size: 1.4em;
     
     color: #fff;
     
     font-family: "Open Sans", sans-serif;
-    text-align: center;
+    text-align: left;
+    line-height: 1.5;
     
     background-color: transparent;
     margin-top: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.text{
-    margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -43,15 +50,20 @@ table{
     color: #fff;
     border-collapse: collapse;
     width: 80;
-    font-size: 1. 2em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
 }
 td,th{
-    border: 5px dashed #f00;
-    padding: 1.5%;
+    border: 5px dashed rgba(255, 0, 0, 0.596);
+    padding: 2%;
 }
-tr:nthchild(even) {
-    background-color: aliceblue;
+tr{
+    background-color: rgba(165, 206, 241, 0.233);
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.150);
+    padding: 3$;
 }
