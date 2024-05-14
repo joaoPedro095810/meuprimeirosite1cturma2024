@@ -1,0 +1,23 @@
+body{
+    background-color:antiquewhite; 
+    color: gray;
+}  
+
+img{
+    width: 20%;
+    display: block; margin-left:auto; margin-right: auto;
+}
+
+h1{
+    text-align:center;
+    color:black
+}
+table{
+         th, td {
+          border: 1px solid black;
+        }</table>
+}
+tr{
+    color: black;
+}
+salva3
