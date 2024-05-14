@@ -1,16 +1,27 @@
-body{
-    background-color: transparent;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("img/ucl_branding.webp");
-    background-repeat: repeat;
-    background-size: 100%;
-  
+.menu{
+    position: absolute;
+    top: 52px;
+    right: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    
 }
 main{
     background-color: rgba(0, 0, 0, 0.399);
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 150px;
 }
+body{
+    
+    background-color: transparent;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("img/ucl_branding.webp");
+    background-repeat: repeat;
+    background-size: 100%;
+  
+}
+
 header{
     background-color: transparent;
     padding: 3%;
@@ -34,6 +45,29 @@ nav a{
     display: block;
     padding: 14px 16px;
 }
+a:link {
+    color: rgb(255, 0, 170);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(177, 70, 159);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(70, 123, 221);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 4, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
 h3,h2,h1{
 
     color: white;
@@ -41,7 +75,7 @@ h3,h2,h1{
     font-size: 1.8em;
     color: #fff;
     
-    font-family:;
+    font-family:"Open Sans", sans-serif;
     text-align: left;
     line-height: 3;
     
@@ -84,7 +118,7 @@ tr{
 }
 footer{
     background-color: rgba(255, 255, 255, 0.150);
-    padding: 3$;
+    padding: 3%;
 }
 .linha{
     display: flex;
