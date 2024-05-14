@@ -1,0 +1,43 @@
+body{
+    background-image: url(../img/ucl_branding.webp);
+    margin-left: 30px;
+    margin-right: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    background-color: lightblue;
+    padding: 3%;
+}
+
+.logo{
+    background-color: yellow;
+}
+
+nav{
+    background-color: darkgray;
+}
+
+main{
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+section{
+    background-color: wheat;
+}
+
+footer{
+    background-color: purple;
+    padding: 3%;
+}
+.cabecalho{
+    padding: 3%;
+}
+.rodape{
+    padding: 3%;
+}
