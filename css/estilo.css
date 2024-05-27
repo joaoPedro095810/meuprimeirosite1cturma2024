@@ -1,43 +1,121 @@
 body{
-    background-image: url(../img/ucl_branding.webp);
-    margin-left: 30px;
-    margin-right: 350px;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../img/ucl_branding.webp");
 }
 
 header{
-    background-color: lightblue;
-    padding: 3%;
+    background-color: rgb(0, 0, 0);        
 }
 
-.logo{
-    background-color: yellow;
-}
-
-nav{
-    background-color: darkgray;
-}
-
-main{
-    
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+li{
     color: white;
 }
 
-section{
-    background-color: wheat;
+main{
+    background-color: rgba(133, 14, 14, 0.288);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 1%;   
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+.logo{
+    width: 8%;
 }
 
 footer{
-    background-color: purple;
-    padding: 3%;
+    background-color: rgba(255, 255, 255, 0.301);       
 }
-.cabecalho{
-    padding: 3%;
+p,li,table{
+    font-family: "Open sans", sans-serif;
 }
-.rodape{
-    padding: 3%;
+
+p{
+    line-height: 1.5;
+    font-size: 1.4em;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
+
+ul li{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+h1{
+    font-family: "Roboto";
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Roboto";
+    font-size: 1.7em;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Roboto";
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+td,th{
+    border: 5px dashed rgb(43, 43, 43);
+    padding: 1.5%;
+}
+
+tr:nth-child(even) {
+    background-color:rgba(218, 221, 9, 0.795);
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-4{
+    width: 32%;
+}
+.col-4 p{
+    font-size: 1rem;
+    text-align: center;
+}
+.imggaleria{
+    width: 95%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+a:link {
+    color: rgb(255, 0, 170);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(177, 70, 159);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(70, 123, 221);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 4, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
