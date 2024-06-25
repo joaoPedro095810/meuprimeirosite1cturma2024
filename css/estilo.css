@@ -38,13 +38,23 @@ li{
 }
 
 main{
-    background-color: rgba(133, 14, 14, 0.288);
+    
     width: 80%;
     margin-left: auto;
     margin-right: auto; 
     padding: 1%;   
     color: #fff;
     background-color: rgba(0, 0, 0, 0.575);
+}
+section{
+    padding: 1%;
+}
+p{
+    line-height: 1.5;
+    font-size: 1.4em;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 .logo{
     width: 8%;
@@ -53,17 +63,11 @@ main{
 footer{
     background-color: rgba(255, 255, 255, 0.301);       
 }
-p,li,table{
+li,table{
     font-family: "Open sans", sans-serif;
 }
 
-p{
-    line-height: 1.5;
-    font-size: 1.4em;
-    font-family: "Open Sans", sans-serif;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
-}
+
 
 ul li{
     line-height: 1.5;
