@@ -21,7 +21,14 @@ header{
     z-index: 1000;
     box-sizing: border-box;
 }
-
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 20px;
+}
  
 .menu-icon {
     display: none;
@@ -63,7 +70,7 @@ p{
     padding-bottom: 0.5%;
 }
 .logo{
-    width: 20%;
+    width: 22%;
 }
 
 footer{
@@ -79,7 +86,7 @@ li{
 
 ul li{
     line-height: 1.5;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 h1{

@@ -12,21 +12,23 @@
 
 </head>
 <body>
-    <header>
-            <div class="logo">
-                <img src="img/R.png" alt="logo ucl">
-            </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="confrontos.html">Confrontos</a></li>
-                <li><a href="semifiinal.html">Semifinal</a></li>
-                <li><a href="quartasdefinal.html">Quartas De Final</a></li>
-                <li><a href="oitavasdefinal.html">Oitavas De Final</a></li>
-                <li><a href="artilharia.html">Artilharia</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="cabecalho">
+        <div>
+            <img class="logo" src="img/R.png" alt="logo ucl">
+        </div>
+        <nav id="menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul>
+            <li><a href="index.html" onclick="document.getElementById('menu-toggle').click()">Início</a></li>
+            <li><a href="confrontos.html" onclick="document.getElementById('menu-toggle'). click()">Confrontos</a></li>
+            <li><a href="semifiinal.html" onclick="document.getElementById('menu-toggle'). click()">Semifinal</a></li>
+            <li><a href="quartasdefinal.html" onclick="document.getElementById('menu-toggle'). click()">Quartas</a></li>
+            <li><a href="oitavasdefinal.html" onclick="document.getElementById('menu-toggle'). click()">Oitavas</a></li>
+            <li><a href="artilharia.html" onclick="document.getElementById('menu-toggle'). click()">Artilharia</a></li>
+        </ul>
+    </nav>
+</header>
     <main>
         <section>
 
