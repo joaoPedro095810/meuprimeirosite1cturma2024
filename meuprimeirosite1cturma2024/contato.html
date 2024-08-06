@@ -1,0 +1,45 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SEMANTICO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+        
+</head>
+    
+<body>
+    <header class="cabecalho">
+            <div>
+                <img class="logo" src="img/R.png" alt="logo ucl">
+            </div>
+            <nav id="menu">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li><a href="index.html" onclick="document.getElementById('menu-toggle').click()">Início</a></li>
+                <li><a href="confrontos.html" onclick="document.getElementById('menu-toggle'). click()">Confrontos</a></li>
+                <li><a href="semifiinal.html" onclick="document.getElementById('menu-toggle'). click()">Semifinal</a></li>
+                <li><a href="quartasdefinal.html" onclick="document.getElementById('menu-toggle'). click()">Quartas</a></li>
+                <li><a href="oitavasdefinal.html" onclick="document.getElementById('menu-toggle'). click()">Oitavas</a></li>
+                <li><a href="artilharia.html" onclick="document.getElementById('menu-toggle'). click()">Artilharia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>NA SUA OPINIÃO QUAL E O TIME FAVORITO.</h2>
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+    </form>
+    </main>
+</body>
+</html>
